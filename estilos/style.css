@@ -2,5 +2,55 @@
 
 /* Paleta de cores :
 Azul: #39A89B  alternativas:#8AFFF1 #6CF5E5
-Marrom: #A85028 alternativa: ##F5966C
+Marrom: #A85028 alternativa: ##F5966C 
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #39A89B;
+    padding: 60px;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto; 
+    
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #39a89bc7;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #39A89B url(../imagens/pexels-pixabay-273209\ \(1\).jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+
 
