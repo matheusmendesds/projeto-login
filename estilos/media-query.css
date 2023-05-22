@@ -20,6 +20,10 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        width: calc(100% - 11%);
+    }
       
 }
 
@@ -51,5 +55,9 @@
     div#formulario > p {
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    div.campo > input {
+        width: calc(100% - 10%);
     }
 }
