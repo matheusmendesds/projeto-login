@@ -14,7 +14,6 @@ Marrom: #A85028 alternativa: ##F5966C
 
 body, html {
     background-color: #39A89B;
-    padding: 60px;
     height: 100vh;
     width: 100vw;
 }
@@ -46,6 +45,7 @@ section#login > div#imagem {
     display: block;
     background: #39A89B url(../imagens/pexels-pixabay-273209\ \(1\).jpg);
     background-size: cover;
+    background-position: left bottom;
     height: 200px;
 }
 
